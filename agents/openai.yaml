@@ -1,0 +1,9 @@
+interface:
+  display_name: "Claude Executor"
+  short_description: "Codex plans and reviews; Claude executes silently."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "claude_executor"
+      description: "Wait for Claude execution and acceptance checks in one call"
+      transport: "stdio"

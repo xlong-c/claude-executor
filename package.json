@@ -1,0 +1,14 @@
+{
+  "name": "claude-executor",
+  "version": "1.1.1",
+  "description": "Run bounded Claude Code implementation tasks through a local stdio MCP server or CLI.",
+  "license": "Apache-2.0",
+  "private": false,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test scripts/delegate.test.mjs scripts/mcp.test.mjs"
+  }
+}
